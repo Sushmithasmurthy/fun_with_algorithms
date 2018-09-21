@@ -1,7 +1,7 @@
 package com.ss.dto;
 
 public class Node {
-    private String root;
+    private String data;
     private Node rightNode;
     private Node leftNode;
 
@@ -18,16 +18,16 @@ public class Node {
 
     }
 
-    public Node(String root) {
-        this.root = root;
+    public Node(String data) {
+        this.data = data;
     }
 
-    public String getRoot() {
-        return root;
+    public String getData() {
+        return data;
     }
 
-    public Node setRoot(String root) {
-        this.root = root;
+    public Node setData(String data) {
+        this.data = data;
         return this;
     }
 
